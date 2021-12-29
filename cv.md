@@ -1,9 +1,11 @@
 # Alexandr Lyskovets
 ### Junior Front-end Developer
+
 ******
 
 ## Contacts
-****
+
+*****
 
 * **Location:** Minsk, Belarus
 * **E-mail:** alexjugarronaldo@gmail.com
@@ -11,7 +13,8 @@
 * **LinkedIn:** [alexandr-lyskovets] (https://www.linkedin.com/in/alexandr-lyskovets/)
 
 ## About Me
-*****
+
+******
 
 
 
