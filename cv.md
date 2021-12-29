@@ -7,8 +7,8 @@
 
 * **Location:** Minsk, Belarus
 * **E-mail:** alexjugarronaldo@gmail.com
-* **Github:** [lalexro] (https://github.com/lalexro)
-* [LinkedIn] (https://www.linkedin.com/in/alexandr-lyskovets/)
+* **Github:** [lalexro](https://github.com/lalexro)
+* [LinkedIn](https://www.linkedin.com/in/alexandr-lyskovets/)
 
 ****
 
