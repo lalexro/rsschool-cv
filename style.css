@@ -2,3 +2,7 @@ body{
     background-color: #fff;
     font-family: 'EB Garamond', serif;
 }
+
+* {
+    box-sizing: border-box;
+  }
