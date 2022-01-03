@@ -15,6 +15,8 @@ body{
     margin: 0;
     padding: 0;
     min-height: 100vh;
+    font-size: 20px;
+    color: #0b0708;
 }
 
 .container{
@@ -24,12 +26,12 @@ body{
 
 /********* Header **********/
 .header{
-    background-color: #fff;
+    background-color: #ff0000;
 }
 
 .nav-list{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     list-style: none;
 }
@@ -38,20 +40,99 @@ body{
     padding: 0 20px;
     line-height: 40px;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 27px;
     font-weight: 500;
-    color: #ff0000;
+    color: #fff;
 }
 
 .nav-link:hover{
     transition: .3s;
-    background: #ff0000;
-    color:#fff;
+    background: #fff;
+    color:#ff0000;
 }
 
 /********** Content ********/
 .main{
-    border: 1px solid rgb(122, 206, 44);
+    margin-bottom: auto;
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-profile{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 30px 15px 20px;
+    border-bottom: 10px solid #ff0000;
+}
+
+.avatar{
+    width: 200px;
+}
+
+.name{
+    font-size: 40px;
+    color: #ff0000;
+    letter-spacing: 5px;
+}
+
+.position{
+    font-size: 27px;
+    color: #f17777;
+    letter-spacing: 2px;
+}
+
+.section-profile-avatar{
+    display: flex;
+}
+
+.section-profile-dates{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-profile-contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts-title{
+    font-size: 32px;
+    letter-spacing: 3px;
+}
+
+.section-list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.section-item {
+    position: relative;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+
+  .section-item a {
+    color: #f17777;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+  .section-item a:hover {
+    color: #0b0708;
+  }
+
+.bold{
+    font-weight: 700;
 }
 
 /********* Footer **********/
