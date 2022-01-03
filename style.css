@@ -66,6 +66,8 @@ body{
 .section{
     width: calc(50% - 25px);
     padding: 5px;
+    border-bottom: 2px solid #ff0000;
+    padding-bottom: 20px;
 }
 
 @media (max-width: 768px) {
@@ -87,15 +89,15 @@ body{
 }
 
 .name{
-    font-size: 40px;
+    font-size: 44px;
     color: #ff0000;
     letter-spacing: 5px;
 }
 
 .position{
-    font-size: 27px;
-    color: #f17777;
-    letter-spacing: 2px;
+    font-size: 25px;
+    color: #0b0708;
+    letter-spacing: 4px;
 }
 
 .section-profile-avatar{
@@ -116,7 +118,6 @@ body{
 }
 
 .contacts-title{
-    font-size: 32px;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
@@ -132,6 +133,18 @@ body{
     margin: 0;
     margin-bottom: 10px;
     padding: 0;
+    padding-left: 25px;
+  }
+
+  .section-item::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    width: 10px;
+    height: 10px; 
+    border: 1px solid #f17777;
+    border-radius: 50%;
   }
 
   .section-item a {
@@ -152,12 +165,20 @@ body{
 }
 
 .section-title {
-    font-size: 22px;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 5px;
     color: #0b0708;
   }
+
+.pre{
+    margin: 0;
+    padding: 0;
+}
+
+.section-education, .section-language{
+    border-bottom: 0;
+}
 
 /********* Footer **********/
 
